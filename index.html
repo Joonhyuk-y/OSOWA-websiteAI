@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Osowa Korean Restaurant</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">
+        <svg class="logo-svg" viewBox="0 0 400 200">
+          <g fill="currentColor">
+            <path d="M60 50C60 30 80 20 100 30C120 40 120 70 100 80C80 90 60 70 60 50Z" />
+            <path d="M140 30C120 30 110 50 120 70C130 90 160 90 170 70C180 50 160 30 140 30Z" />
+            <path d="M200 30C180 30 170 40 180 60C190 80 210 80 220 60C230 40 220 30 200 30Z" fillOpacity="0.2" />
+            <path d="M240 30L260 80L280 30" strokeWidth="10" stroke="currentColor" fill="none" />
+            <path d="M300 30L320 80" strokeWidth="10" stroke="currentColor" fill="none" />
+            <path d="M340 30L320 80" strokeWidth="10" stroke="currentColor" fill="none" />
+          </g>
+          <text x="120" y="120" fontFamily="Arial" fontSize="24" fontWeight="bold" fill="currentColor">RESTAURANT</text>
+          <text x="100" y="150" fontFamily="Arial" fontSize="18" fill="currentColor">오소와 레스토랑</text>
+        </svg>
+        <span class="logo-text">OSOWA</span>
+      </div>
+      <div class="nav-links">
+        <a href="#about-us">About Us</a>
+        <a href="#menu">Menu</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a href="https://www.instagram.com/osowa.restaurant/" target="_blank" rel="noopener noreferrer" class="social-link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram">
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+          <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+        </svg>
+        <span>Follow Us</span>
+      </a>
+      <button class="mobile-menu-btn">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <video class="bg-video" autoplay loop muted playsinline>
+      <source src="OSOWA_vid.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="hero-content">
+      <img src="Osowalogo.webp" alt="Osowa Logo" class="hero-logo animate-fadeIn">
+      <h2 class="hero-heading animate-slideUp">The taste of Korea brought to Morocco</h2>
+      <div class="button-container">
+        <a href="https://www.instagram.com/osowa.restaurant/" target="_blank" rel="noopener noreferrer" class="instagram-button animate-fadeIn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+          </svg>
+          <span>Follow us on Instagram</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about-us" class="about">
+    <div class="container">
+      <h2 class="section-title">
+        About Us
+        <div class="title-underline"></div>
+      </h2>
+      <div class="about-content">
+        <p class="about-text animate-fadeIn">
+          At Osowa, every dish is crafted with care, staying true to the essence of Korean cuisine. 
+          From crispy, golden-brown Korean fried chicken coated in a signature sweet and spicy glaze
+          to bibimbap - a colorful medley of rice, vegetables, and a perfectly fried egg - each bite sends you straight to the streets of Seoul.
+          Come to Osowa, where every dish tells a story of tradition, passion, and the true flavors of Korea.
+          Experience the warmth of Korean hospitality and indulge in the authentic tastes that make Korean cuisine so unforgettable. 🇰🇷✨
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu">
+    <div class="container">
+      <h2 class="section-title">
+        Our Menu
+        <div class="title-underline"></div>
+      </h2>
+      <div class="menu-grid">
+        <div class="menu-item animate-fadeIn">
+          <div class="menu-image-container">
+            <img src="https://images.unsplash.com/photo-1590301157890-4810ed352733?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Bibimbap" class="menu-image">
+          </div>
+          <div class="menu-details">
+            <h3 class="menu-item-title">Bibimbap</h3>
+            <p class="menu-item-description">A delightful mix of rice, vegetables, and your choice of protein.</p>
+          </div>
+        </div>
+        <div class="menu-item animate-fadeIn" style="animation-delay: 0.1s;">
+          <div class="menu-image-container">
+            <img src="https://images.unsplash.com/photo-1583187855471-2cd2a1463279?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Korean BBQ" class="menu-image">
+          </div>
+          <div class="menu-details">
+            <h3 class="menu-item-title">Korean BBQ</h3>
+            <p class="menu-item-description">Grill your favorites right at the table.</p>
+          </div>
+        </div>
+        <div class="menu-item animate-fadeIn" style="animation-delay: 0.2s;">
+          <div class="menu-image-container">
+            <img src="https://images.unsplash.com/photo-1580651315530-69c8e0026377?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Kimchi Stew" class="menu-image">
+          </div>
+          <div class="menu-details">
+            <h3 class="menu-item-title">Kimchi Stew</h3>
+            <p class="menu-item-description">Spicy and tangy stew with kimchi and tofu.</p>
+          </div>
+        </div>
+        <div class="menu-item animate-fadeIn" style="animation-delay: 0.3s;">
+          <div class="menu-image-container">
+            <img src="https://images.unsplash.com/photo-1635363638580-c2809d049eee?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Tteokbokki" class="menu-image">
+          </div>
+          <div class="menu-details">
+            <h3 class="menu-item-title">Tteokbokki</h3>
+            <p class="menu-item-description">Chewy rice cakes in a sweet and spicy sauce.</p>
+          </div>
+        </div>
+        <div class="menu-item animate-fadeIn" style="animation-delay: 0.4s;">
+          <div class="menu-image-container">
+            <img src="https://images.unsplash.com/photo-1527477396000-e27163b481c2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Korean Fried Chicken" class="menu-image">
+          </div>
+          <div class="menu-details">
+            <h3 class="menu-item-title">Korean Fried Chicken</h3>
+            <p class="menu-item-description">Crispy chicken with a sweet and spicy glaze.</p>
+          </div>
+        </div>
+        <div class="menu-item animate-fadeIn" style="animation-delay: 0.5s;">
+          <div class="menu-image-container">
+            <img src="https://images.unsplash.com/photo-1583187855471-2cd2a1463279?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Bulgogi" class="menu-image">
+          </div>
+          <div class="menu-details">
+            <h3 class="menu-item-title">Bulgogi</h3>
+            <p class="menu-item-description">Marinated beef, thinly sliced and grilled to perfection.</p>
+          </div>
+        </div>
+      </div>
+      <div class="menu-button-container">
+        <button class="view-menu-button">View Full Menu</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h2 class="section-title">
+        What Our Customers Say
+        <div class="title-underline"></div>
+      </h2>
+      <div class="testimonials-grid">
+        <div class="testimonial animate-fadeIn">
+          <div class="rating">
+            <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+          </div>
+          <p class="testimonial-text">"The bibimbap was absolutely delicious! Authentic Korean flavors that transported me back to my trip to Seoul."</p>
+          <p class="testimonial-author">Sarah M.</p>
+        </div>
+        <div class="testimonial animate-fadeIn" style="animation-delay: 0.1s;">
+          <div class="rating">
+            <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+          </div>
+          <p class="testimonial-text">"First time trying Korean food and I'm hooked! The staff was very helpful in explaining the menu and making recommendations."</p>
+          <p class="testimonial-author">Mohammed A.</p>
+        </div>
+        <div class="testimonial animate-fadeIn" style="animation-delay: 0.2s;">
+          <div class="rating">
+            <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+          </div>
+          <p class="testimonial-text">"The Korean BBQ experience was fantastic. Fresh ingredients and the perfect marinade. Will definitely be back!"</p>
+          <p class="testimonial-author">Leila K.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">
+        Contact Us
+        <div class="title-underline"></div>
+      </h2>
+      <div class="contact-grid">
+        <div class="contact-info animate-fadeIn">
+          <div class="contact-card">
+            <h3 class="contact-title">Visit Us</h3>
+            <div class="contact-details">
+              <div class="contact-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <p>34 Rue Ahmed Al Akkad, Casablanca, Morocco</p>
+              </div>
+              <div class="contact-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+                <p>+212-555-1234</p>
+              </div>
+              <div class="contact-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
+                  <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                </svg>
+                <p>info@osowa.com</p>
+              </div>
+              <div class="contact-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+                <div>
+                  <p class="hours-title">Opening Hours:</p>
+                  <p>Tuesday - Sunday: 12:00 PM - 10:00 PM</p>
+                  <p>Monday: Closed</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-container animate-fadeIn" style="animation-delay: 0.2s;">
+          <div class="contact-card">
+            <h3 class="contact-title">Send Us a Message</h3>
+            <form class="contact-form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="4" placeholder="Your message" required></textarea>
+              </div>
+              <button type="submit" class="submit-button">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-info">
+          <div class="footer-logo">
+            <svg class="logo-svg" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+              <g fill="currentColor">
+                <path d="M60 50C60 30 80 20 100 30C120 40 120 70 100 80C80 90 60 70 60 50Z" />
+                <path d="M140 30C120 30 110 50 120 70C130 90 160 90 170 70C180 50 160 30 140 30Z" />
+                <path d="M200 30C180 30 170 40 180 60C190 80 210 80 220 60C230 40 220 30 200 30Z" fillOpacity="0.2" />
+                <path d="M240 30L260 80L280 30" strokeWidth="10" stroke="currentColor" fill="none" />
+                <path d="M300 30L320 80" strokeWidth="10" stroke="currentColor" fill="none" />
+                <path d="M340 30L320 80" strokeWidth="10" stroke="currentColor" fill="none" />
+              </g>
+              <text x="120" y="120" fontFamily="Arial" fontSize="24" fontWeight="bold" fill="currentColor">RESTAURANT</text>
+              <text x="100" y="150" fontFamily="Arial" fontSize="18" fill="currentColor">오소와 레스토랑</text>
+            </svg>
+            <span class="footer-logo-text">OSOWA</span>
+          </div>
+          <p class="footer-description">
+            Authentic Korean cuisine in the heart of Casablanca, bringing the vibrant flavors of Korea to Morocco.
+          </p>
+        </div>
+        <div class="footer-links">
+          <h3 class="footer-heading">Quick Links</h3>
+          <ul class="footer-nav">
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3 class="footer-heading">Connect With Us</h3>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/osowa.restaurant/" target="_blank" rel="noopener noreferrer" class="social-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="#" class="social-icon">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </a>
+            <a href="#" class="social-icon">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723 10.054 10.054 0 01-3.127 1.184 4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Osowa Korean Restaurant. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
